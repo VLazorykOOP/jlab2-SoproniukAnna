@@ -33,6 +33,7 @@ public class Main
         System.out.println("\t \t \t New info about " + milk.getName());
         System.out.println(milk.toString());
 
+
         System.out.println();
         System.out.println("\t \t \t Price of products ");
         System.out.println(milk.calculationPriceProduct());
