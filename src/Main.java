@@ -7,7 +7,6 @@ public class Main
     {
         Scanner in = new Scanner(System.in);
 
-
         System.out.println("\t \t \t Java Lab 2 ");
         System.out.println("\t \t \t Task 1");
 
@@ -47,7 +46,7 @@ public class Main
         System.out.println();
         System.out.println();
 
-        //----------------------------------------------------------------------
+        //------------------------------Task2----------------------------------------
 
         System.out.println("\t \t \t Task 2");
         Cone cone = new Cone(4,3);
@@ -75,6 +74,13 @@ public class Main
         System.out.println("Comparison");
         System.out.println(cone.equals(cone));
         System.out.println(cone.equals(cone1));
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        //------------------------------Task3----------------------------------------
+
+
 
     }
 }

@@ -70,7 +70,8 @@ public class Goods
         if ( obj instanceof Goods )
         {
             Goods obj1 = (Goods) obj;
-            if ( name == obj1.getName() && date == obj1.getDate() && price == obj1.getPrice() && count == obj1.getCount() && invoice == obj1.getInvoice())
+            if ( name == obj1.getName() && date == obj1.getDate() && price == obj1.getPrice()
+                    && count == obj1.getCount() && invoice == obj1.getInvoice())
                 return true;
         }
         return false;
