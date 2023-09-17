@@ -1,12 +1,15 @@
 import java.util.Date;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main
 {
-    public static void main(String[] args)
-    {
-        Scanner in = new Scanner(System.in);
 
+
+        public static void main(String[] args)
+        {
+            Scanner in = new Scanner(System.in);
+        /*
         System.out.println("\t \t \t Java Lab 2 ");
         System.out.println("\t \t \t Task 1");
 
@@ -45,10 +48,10 @@ public class Main
         System.out.println();
         System.out.println();
         System.out.println();
+        */
+            //------------------------------Task2----------------------------------------
 
-        //------------------------------Task2----------------------------------------
-
-        System.out.println("\t \t \t Task 2");
+        /*System.out.println("\t \t \t Task 2");
         Cone cone = new Cone(4,3);
         Cone cone1 = new Cone(7,8);
 
@@ -77,10 +80,9 @@ public class Main
         System.out.println();
         System.out.println();
         System.out.println();
+        */
+            //------------------------------Task3----------------------------------------
 
-        //------------------------------Task3----------------------------------------
+        }
 
-
-
-    }
 }
